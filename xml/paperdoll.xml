@@ -1,0 +1,62 @@
+<paperdoll scale="10">
+	<slot>
+		<name>Helmet</name>
+		<posx>15</posx>
+		<posy>15</posy>
+	</slot>
+	<slot>
+		<name>Chest</name>
+		<posx>15</posx>
+		<posy>29</posy>
+	</slot>
+	<slot>
+		<name>Belt</name>
+		<posx>15</posx>
+		<posy>43</posy>
+	</slot>
+	<slot>
+		<name>Pants</name>
+		<posx>15</posx>
+		<posy>57</posy>
+	</slot>
+	<slot>
+		<name>Boots</name>
+		<posx>15</posx>
+		<posy>71</posy>
+	</slot>
+	<slot>
+		<name>Gloves</name>
+		<posx>5</posx>
+		<posy>43</posy>
+	</slot>
+	<slot>
+		<name>Left-hand</name>
+		<posx>5</posx>
+		<posy>57</posy>
+	</slot>
+	<slot>
+		<name>Right-hand</name>
+		<posx>25</posx>
+		<posy>57</posy>
+	</slot>
+	<slot>
+		<name>Artefact 1</name>
+		<posx>5</posx>
+		<posy>15</posy>
+	</slot>
+	<slot>
+		<name>Artefact 2</name>
+		<posx>5</posx>
+		<posy>29</posy>
+	</slot>
+	<slot>
+		<name>Artefact 3</name>
+		<posx>25</posx>
+		<posy>15</posy>
+	</slot>
+	<slot>
+		<name>Artefact 4</name>
+		<posx>25</posx>
+		<posy>29</posy>
+	</slot>
+</paperdoll>

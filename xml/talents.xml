@@ -1,0 +1,11 @@
+<talentslist>
+	<talents name="Racial">
+		<talent>
+			<name>Elven Lore</name>
+			<type>Passive</type>
+			<event>
+				<eventid>Identify</eventid>
+			</event>
+		</talent>
+	</talents>
+</talentslist>

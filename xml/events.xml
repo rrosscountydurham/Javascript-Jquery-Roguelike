@@ -1,0 +1,20 @@
+<events>
+	<event>
+		<name>move</name>
+		<time>actor.getStat("Ground Speed");</time>
+		<critical>0</critical>
+		<power></power>
+	</event>
+	<event>
+		<name>melee</name>
+		<time>actor.getStat("Main Hand Speed");</time>
+		<critical>0</critical>
+		<power>50 + ((actor.getStat("Luck") - 10) / 10) + actor.getStat("Close quarters combat") - target.getStat("Close quarters combat") - randomRange(0,100);</power>
+	</event>
+	<event>
+		<name>basichit</name>
+		<time>0</time>
+		<critical>(actor.getStat("Luck") * 100) / 2;</critical>
+		<power>(actor.getStat("Main Hand Damage") + actor.getStat("Off-hand Damage") - target.getStat("Physical Resist")) * (1 + ((actor.getStat("Power") - ((target.getStat("Vitality") - 10)/2) - 10) / 10)) * ((90 + randomRange(0,20)) / 100);</power>
+	</event>
+</events>

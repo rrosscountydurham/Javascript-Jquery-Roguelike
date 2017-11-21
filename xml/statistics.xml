@@ -1,0 +1,143 @@
+<statistics>
+	<stats name="Creation">
+		<stat>
+			<name>Race</name>
+			<description>Race</description>
+			<reference>races.xml</reference>
+		</stat>
+		<stat>
+			<name>Background</name>
+			<description>Background</description>
+			<reference>backgrounds.xml</reference>
+		</stat>
+		<stat>
+			<name>Profession</name>
+			<description>Profession</description>
+			<reference>professions.xml</reference>
+		</stat>
+	</stats>
+	<stats name="Base">
+		<stat>
+			<name>Power</name>
+			<power>true</power>
+			<base>10</base>
+			<description>Determines the potency of all of your combat abilities. Increases damage and healing values of all abilities</description>
+		</stat>
+		<stat>
+			<name>Speed</name>
+			<power>true</power>
+			<base>10</base>
+			<description>How quickly you can move and perform actions. Increases speed of movement, and speed of actions in combat</description>
+		</stat>
+		<stat>
+			<name>Vitality</name>
+			<power>true</power>
+			<base>10</base>
+			<description>Your health and constitution. Determines your base hitpoints and resistance to physical attacks</description>
+		</stat>
+		<stat>
+			<name>Willpower</name>
+			<power>true</power>
+			<base>10</base>
+			<description>Essence resilience. Determines your base Power Points and resistance to Essence attacks</description>
+		</stat>
+		<stat>
+			<name>Essence</name>
+			<power>true</power>
+			<base>10</base>
+			<description>Attunement with the Essence. Increased values allows for more Essence Infusions without penalty, and master more complex Essence Techniques</description>
+		</stat>
+		<stat>
+			<name>Technomancy</name>
+			<power>true</power>
+			<base>10</base>
+			<description>Capacity for technological implants and upgrades. Increased values allows more Cybernetics and more complex systems to be installed</description>
+		</stat>
+		<stat>
+			<name>Biogenetics</name>
+			<power>true</power>
+			<base>10</base>
+			<description>Genetic plasticity. Increased values allow more DNA Enhancements and different Genemoulds to be utilized</description>
+		</stat>
+		<stat>
+			<name>Charisma</name>
+			<power>false</power>
+			<base>10</base>
+			<description>Charm and wit. Affects prices in shops, disposition with NPCs and loyalty of comrades</description>
+		</stat>
+		<stat>
+			<name>Luck</name>
+			<power>false</power>
+			<base>10</base>
+			<description>Sheer fortune and a knack for suceeding against the odds. Has a small affect on all actions, improves chances of finding items and increases critical chance</description>
+		</stat>
+	</stats>
+	<stats name="Skills">
+		<stat>
+			<name>Close quarters combat</name>
+			<power>true</power>
+			<base>10</base>
+			<description>Overall martial ability in close range, ability to land hits, deflect oncoming blows and avoid damage altogether</description>
+		</stat>
+		<stat>
+			<name>Athletics</name>
+			<power>false</power>
+			<base>10</base>
+			<description>Stamina and bodily health, how long you can perform strenuous physical tasks or stave off detrimental effects such as inhospitable weather, starvation and thirst</description>
+		</stat>
+		<stat>
+			<name>Marksmanship</name>
+			<power>true</power>
+			<base>10</base>
+			<description>Accuracy with long-ranged weaponry</description>
+		</stat>
+		<stat>
+			<name>Perception</name>
+			<power>false</power>
+			<base>10</base>
+			<description>Attentiveness to detail, awareness of the environment</description>
+		</stat>
+	</stats>
+	<stats name="Derived">
+		<stat>
+			<name>Main Hand Damage</name>
+			<base>1</base>
+			<description>Damage done by your main hand weapon</description>
+		</stat>
+		<stat>
+			<name>Off-hand Damage</name>
+			<base>1</base>
+			<description>Damage done by your off-hand weapon</description>
+		</stat>
+		<stat>
+			<name>Physical Resist</name>
+			<base>0</base>
+			<description>Reduces damage from physical sources and assists in resisting physical effects</description>
+		</stat>
+		<stat>
+			<name>Essence Resist</name>
+			<base>0</base>
+			<description>Reduces damage from Essence attacks and helps to prevent harmful Essence effects</description>
+		</stat>
+		<stat>
+			<name>Main Hand Speed</name>
+			<base>1000</base>
+			<description>How quickly you perform attacks with your main-hand weapon</description>
+		</stat>
+		<stat>
+			<name>Off-hand Speed</name>
+			<base>1000</base>
+			<description>How quickly you perform attacks with your off-hand weapon</description>
+		</stat>
+		<stat>
+			<name>Ground Speed</name>
+			<base>1000</base>
+			<description>Base energy cost to move one space</description>
+		</stat>
+		<stat>
+			<name>Health</name>
+			<base>actor.getStat("Vitality") * 10</base>
+			<description>How much raw damage you can take before passing out</description>
+		</stat>
+	</stats>
+</statistics>

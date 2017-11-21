@@ -1,0 +1,8 @@
+<states>
+	<state>
+		<name>Main Menu</name>
+	</state>
+	<state>
+		<name>In Game</name>
+	</state>
+</states>

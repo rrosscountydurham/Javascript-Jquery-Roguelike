@@ -1,0 +1,11 @@
+<item name="Main Menu">
+	<item name="New Game">
+		<item name="Create New Character">menuCreate</item>
+		<item name="Reload Previous Character">menuReloadPrevChar</item>
+	</item>
+	<item name="Load Game">menuLoad</item>
+	<item name="Options">
+		<item name="Graphics">menuGraphics</item>
+		<item name="Sound">menuSound</item>
+	</item>
+</item>

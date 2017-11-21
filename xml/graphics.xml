@@ -1,0 +1,14 @@
+<graphics>
+	<graphic name="tiles.png">
+		<type>Tiles</type>
+		<size>33</size>
+	</graphic>
+	<graphic name="items.png">
+		<type>Tiles</type>
+		<size>33</size>
+	</graphic>
+	<graphic name="entities.png">
+		<type>Tiles</type>
+		<size>33</size>
+	</graphic>
+</graphics>

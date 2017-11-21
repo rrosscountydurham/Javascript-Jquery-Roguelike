@@ -1,0 +1,12 @@
+<professions>
+	<statid>Profession</statid>
+	<elementname>profession</elementname>
+	<profession>
+		<name>Carpenter</name>
+		<description>Makes wood</description>
+		<statbonus>
+			<statbonusid>Speed</statbonusid>
+			<statbonusvalue>1</statbonusvalue>
+		</statbonus>
+	</profession>
+</professions>

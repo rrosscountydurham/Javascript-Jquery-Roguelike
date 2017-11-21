@@ -1,0 +1,18 @@
+<starsigns>
+	<statid>Starsign</statid>
+	<elementname>starsign</elementname>
+	<starsign>
+		<name>Scorpion</name>
+		<statbonus>
+			<statbonusid>Power</statbonusid>
+			<statbonusvalue>2</statbonusvalue>
+		</statbonus>
+	</starsign>
+	<starsign>
+		<name>Taurus</name>
+		<statbonus>
+			<statbonusid>Speed</statbonusid>
+			<statbonusvalue>2</statbonusvalue>
+		</statbonus>
+	</starsign>
+</starsigns>

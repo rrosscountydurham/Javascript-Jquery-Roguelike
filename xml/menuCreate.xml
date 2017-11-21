@@ -1,0 +1,26 @@
+<charactercreation>
+	<step name="1">
+		<text>Choose your race</text>
+		<selection type="list" amount="1">races.xml</selection>
+	</step>
+	<step name="2">
+		<text>Choose your starsign</text>
+		<selection type="list" amount="1">starsigns.xml</selection>
+	</step>
+	<step name="3">
+		<text>Choose your background;</text>
+		<selection type="list" amount="1">backgrounds.xml</selection>
+	</step>
+	<step name="4">
+		<text>Choose your profession</text>
+		<selection type="list" amount="1">professions.xml</selection>
+	</step>
+	<step name="5">
+		<text>You will now be asked a series of questions that will determine your starting stats. Choose carefully from the answers as they will determine your eventual path at the start of the game</text>
+		<selection type="questions" amount="2">questions.xml</selection>
+	</step>
+	<step name="6">
+		<text>Character Sheet</text>
+		<selection type="charsheet" amount="0">charsheet.xml</selection>
+	</step>
+</charactercreation>

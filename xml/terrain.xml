@@ -1,0 +1,81 @@
+<terrains>
+	<terrain name="Overworld">
+		<type>Overworld</type>
+		<floor>
+			<frame>8</frame>
+		</floor>
+		<wall>
+			<frame>9</frame>
+			<frame>10</frame>
+		</wall>
+		<water>
+			<frame>11</frame>
+		</water>
+		<stairsdown>
+			<frame>6</frame>
+		</stairsdown>
+		<stairsup>
+			<frame>7</frame>
+		</stairsup>
+	</terrain>
+	<terrain name="Dungeon">
+		<type>Ground level</type>
+		<floor>
+			<frame>0</frame>
+			<frame>1</frame>
+			<frame>2</frame>
+			<frame>3</frame>
+		</floor>
+		<wall>
+			<frame>4</frame>
+		</wall>
+		<water>
+			<frame>11</frame>
+		</water>
+		<stairsdown>
+			<frame>6</frame>
+		</stairsdown>
+		<stairsup>
+			<frame>7</frame>
+		</stairsup>
+	</terrain>
+	<terrain name="Lower Dungeon">
+		<type>Basement</type>
+		<floor>
+			<frame>0</frame>
+			<frame>1</frame>
+			<frame>2</frame>
+			<frame>3</frame>
+		</floor>
+		<wall>
+			<frame>4</frame>
+		</wall>
+		<water>
+			<frame>11</frame>
+		</water>
+		<stairsdown>
+			<frame>6</frame>
+		</stairsdown>
+		<stairsup>
+			<frame>7</frame>
+		</stairsup>
+	</terrain>
+	<terrain name="Lower Dungeon 2">
+		<type>Basement</type>
+		<floor>
+			<frame>8</frame>
+		</floor>
+		<wall>
+			<frame>4</frame>
+		</wall>
+		<water>
+			<frame>11</frame>
+		</water>
+		<stairsdown>
+			<frame>6</frame>
+		</stairsdown>
+		<stairsup>
+			<frame>7</frame>
+		</stairsup>
+	</terrain>
+</terrains>

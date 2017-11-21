@@ -1,0 +1,106 @@
+<questions>
+	<question>
+		<name>Q1</name>
+		<text>You come on a mountain, what do? 1</text>
+		<decision>
+			<text>Do naught</text>
+			<statbonus>
+				<statbonusid>Speed</statbonusid>
+				<statbonusvalue>2</statbonusvalue>
+			</statbonus>
+			<statbonus>
+				<statbonusid>Vitality</statbonusid>
+				<statbonusvalue>3</statbonusvalue>
+			</statbonus>
+		</decision>
+		<decision>
+			<text>Do night</text>
+			<statbonus>
+				<statbonusid>Vitality</statbonusid>
+				<statbonusvalue>2</statbonusvalue>
+			</statbonus>
+			<statbonus>
+				<statbonusid>Speed</statbonusid>
+				<statbonusvalue>3</statbonusvalue>
+			</statbonus>
+		</decision>
+	</question>
+		<question>
+		<name>Q1</name>
+		<text>You come on a mountain, what do? 2</text>
+		<decision>
+			<text>Do naught</text>
+			<statbonus>
+				<statbonusid>Speed</statbonusid>
+				<statbonusvalue>2</statbonusvalue>
+			</statbonus>
+			<statbonus>
+				<statbonusid>Vitality</statbonusid>
+				<statbonusvalue>3</statbonusvalue>
+			</statbonus>
+		</decision>
+		<decision>
+			<text>Do night</text>
+			<statbonus>
+				<statbonusid>Vitality</statbonusid>
+				<statbonusvalue>2</statbonusvalue>
+			</statbonus>
+			<statbonus>
+				<statbonusid>Speed</statbonusid>
+				<statbonusvalue>3</statbonusvalue>
+			</statbonus>
+		</decision>
+	</question>
+		<question>
+		<name>Q1</name>
+		<text>You come on a mountain, what do? 3</text>
+		<decision>
+			<text>Do naught</text>
+			<statbonus>
+				<statbonusid>Speed</statbonusid>
+				<statbonusvalue>2</statbonusvalue>
+			</statbonus>
+			<statbonus>
+				<statbonusid>Vitality</statbonusid>
+				<statbonusvalue>3</statbonusvalue>
+			</statbonus>
+		</decision>
+		<decision>
+			<text>Do night</text>
+			<statbonus>
+				<statbonusid>Vitality</statbonusid>
+				<statbonusvalue>2</statbonusvalue>
+			</statbonus>
+			<statbonus>
+				<statbonusid>Speed</statbonusid>
+				<statbonusvalue>3</statbonusvalue>
+			</statbonus>
+		</decision>
+	</question>
+		<question>
+		<name>Q1</name>
+		<text>You come on a mountain, what do? 4</text>
+		<decision>
+			<text>Do naught</text>
+			<statbonus>
+				<statbonusid>Speed</statbonusid>
+				<statbonusvalue>2</statbonusvalue>
+			</statbonus>
+			<statbonus>
+				<statbonusid>Vitality</statbonusid>
+				<statbonusvalue>3</statbonusvalue>
+			</statbonus>
+		</decision>
+		<decision>
+			<text>Do night</text>
+			<statbonus>
+				<statbonusid>Vitality</statbonusid>
+				<statbonusvalue>2</statbonusvalue>
+			</statbonus>
+			<statbonus>
+				<statbonusid>Speed</statbonusid>
+				<statbonusvalue>3</statbonusvalue>
+			</statbonus>
+		</decision>
+	</question>
+</questions>

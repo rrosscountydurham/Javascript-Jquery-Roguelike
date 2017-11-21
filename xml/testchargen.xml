@@ -1,0 +1,6 @@
+<charactercreation>
+	<step name="1">
+		<text>Character Sheet</text>
+		<selection type="charsheet" amount="0">charsheet.xml</selection>
+	</step>
+</charactercreation>

@@ -1,0 +1,56 @@
+<races>
+	<statid>Race</statid>
+	<elementname>race</elementname>
+	<race>
+		<name>Elves</name>
+		<description>
+			<p>This is a test description to see if this works properly or not.</p>
+			<p>Dexterity + 2</p>
+			<p>Constitution -1</p>
+		</description>
+		<statbonus>
+			<statbonusid>Speed</statbonusid>
+			<statbonusvalue>2</statbonusvalue>
+		</statbonus>
+		<statbonus>
+			<statbonusid>Vitality</statbonusid>
+			<statbonusvalue>-1</statbonusvalue>
+		</statbonus>
+		<growthbonus>
+			<growthbonusid>Close quarters combat</growthbonusid>
+			<growthbonusvalue>0.2</growthbonusvalue>
+		</growthbonus>
+	</race>
+	<race>
+		<name>Dwarves</name>
+		<description>
+			<p>This is also a test description to see if this works properly or not.</p>
+			<p>Strength +2</p>
+			<p>Charisma -1</p>
+		</description>
+		<statbonus>
+			<statbonusid>Power</statbonusid>
+			<statbonusvalue>2</statbonusvalue>
+		</statbonus>
+		<statbonus>
+			<statbonusid>Charisma</statbonusid>
+			<statbonusvalue>-1</statbonusvalue>
+		</statbonus>
+	</race>
+	<race>
+		<name>Gnomes</name>
+		<description>
+			<p>This is also a test description to see if this works properly or not.</p>
+			<p>Strength +2</p>
+			<p>Charisma -1</p>
+		</description>
+		<statbonus>
+			<statbonusid>Power</statbonusid>
+			<statbonusvalue>2</statbonusvalue>
+		</statbonus>
+		<statbonus>
+			<statbonusid>Charisma</statbonusid>
+			<statbonusvalue>-1</statbonusvalue>
+		</statbonus>
+	</race>
+</races>

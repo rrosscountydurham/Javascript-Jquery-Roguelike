@@ -1,0 +1,12 @@
+<backgrounds>
+	<statid>Background</statid>
+	<elementname>background</elementname>
+	<background>
+		<name>Farmer</name>
+		<description>A simple farmer type</description>
+		<statbonus>
+			<statbonusid>Speed</statbonusid>
+			<statbonusvalue>2</statbonusvalue>
+		</statbonus>
+	</background>
+</backgrounds>

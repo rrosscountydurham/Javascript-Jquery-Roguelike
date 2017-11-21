@@ -1,0 +1,18 @@
+#mainframe{
+	font-family: "Cambria", Helvetica, sans-serif;
+	font-size: 18px;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ #main{
+	position: relative;
+}
+
+canvas{
+	position: absolute;
+}
